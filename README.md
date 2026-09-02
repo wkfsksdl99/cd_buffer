@@ -2,7 +2,7 @@
 
 This is the official code repository for the CVPR 2026 Highlight paper **"CD-Buffer: Complementary Dual-Buffer Framework for Test-Time Adaptation in Adverse Weather Object Detection"**.
 
-## 1. Installation
+## Installation
 
 The code was tested with the following environment:
 
@@ -45,7 +45,7 @@ cd_buffer/
 ```
 
 
-## 2. Dataset
+## Dataset
 
 ### Dataset sources
 
@@ -176,7 +176,7 @@ ACDC_dataset/
 
 The JSON files must contain `images`, `categories`, and `annotations`. Bounding boxes use the COCO `[x, y, width, height]` format. By default, both the ACDC train and validation splits are used for target-domain adaptation. ACDC is supported by the standard runner, not the light runner. Its source domain is Cityscapes, so `--dataroot`, `--weights`, and `--source_stats_path` must point to the Cityscapes source data, checkpoint, and statistics. Use `--acdc_dataroot` for the ACDC target root.
 
-## 3. Run TTA
+## Run TTA
 
 The standard runner exposes the TTA and BN learning rates and the mask regularization weight. The light runner uses fixed values for these settings.
 
@@ -261,7 +261,7 @@ The output directory contains:
 └── cd_buffer_tta_model.txt
 ```
 
-## 4. References
+## References
 
 ### Datasets
 
@@ -283,12 +283,12 @@ The output directory contains:
 
 [3] Hyeongyu Kim, Geonhui Han, and Dosik Hwang. *Buffer Layers for Test-Time Adaptation*. arXiv preprint arXiv:2510.21271, 2025. ([hyeongyu-kim/Buffer_TTA](https://github.com/hyeongyu-kim/Buffer_TTA))
 
-## 5. Acknowledgment
+## Acknowledgment
 
 This code builds upon [ActMAD](https://github.com/jmiemirza/ActMAD), [ContinualTTA_ObjectDetection](https://github.com/natureyoo/ContinualTTA_ObjectDetection), and [Buffer_TTA](https://github.com/hyeongyu-kim/Buffer_TTA). We thank the authors for making their valuable work publicly available.
 
 
-## 6. License
+## License
 
 This project is released under the [Apache License 2.0](LICENSE).
 

@@ -1,5 +1,5 @@
 # CD Buffer
-
+<img width="1542" height="623" alt="image" src="https://github.com/user-attachments/assets/7819519d-9ac5-4cfc-ac0a-7e607e227563" />
 This is the official code repository for the CVPR 2026 Highlight paper **"CD-Buffer: Complementary Dual-Buffer Framework for Test-Time Adaptation in Adverse Weather Object Detection"**.
 
 ## Installation
@@ -182,7 +182,7 @@ The standard runner exposes the TTA and BN learning rates and the mask regulariz
 
 If the file passed through `--source_stats_path` does not exist, the code extracts source-domain statistics from the source split and saves them automatically. If it exists, the cached statistics are loaded directly.
 
-### KITTI fog
+### KITTI
 
 ```bash
 python cd_buffer_main.py \
@@ -214,7 +214,7 @@ python cd_buffer_main.py \
   --device YOUR DEVICE
 ```
 
-### Foggy Cityscapes
+### Cityscapes
 
 ```bash
 python cd_buffer_main_light.py \

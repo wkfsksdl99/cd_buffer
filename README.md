@@ -1,7 +1,7 @@
 # CD Buffer
-<img width="1542" height="623" alt="image" src="https://github.com/user-attachments/assets/7819519d-9ac5-4cfc-ac0a-7e607e227563" />
-This is the official code repository for the CVPR 2026 Highlight paper **"CD-Buffer: Complementary Dual-Buffer Framework for Test-Time Adaptation in Adverse Weather Object Detection"**.
 
+This is the official code repository for the CVPR 2026 Highlight paper **"CD-Buffer: Complementary Dual-Buffer Framework for Test-Time Adaptation in Adverse Weather Object Detection"**.
+<img width="1542" height="623" alt="image" src="https://github.com/user-attachments/assets/7819519d-9ac5-4cfc-ac0a-7e607e227563" />
 ## Installation
 
 The code was tested with the following environment:
